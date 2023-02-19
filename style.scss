@@ -80,8 +80,6 @@ input {
 
 /*##### for-phone-only ##########*/
 @media (max-width: 599px) {
-  body {
-  }
 
   main {
     .hero {
@@ -122,6 +120,17 @@ input {
           }
 
           .contact {
+            background: #ffffff;
+            border-radius: 28px;
+            font-family: "Fraunces";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 25px;
+            letter-spacing: -0.107143px;
+            text-transform: uppercase;
+            color: #24303e;
+            padding: toRem(16) toRem(30);
           }
 
           display: none;
@@ -409,6 +418,348 @@ input {
 
 /*############ for-tablet-portrait-up ##############*/
 @media (min-width: 600px) {
+
+  main {
+    
+    .hero {
+      background-image: url(./images/desktop/image-header.jpg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: 0px 0px;
+      display: flex;
+      flex-direction: column;
+      height: toRem(748);
+      
+      
+
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: toRem(34);
+        margin-bottom: toRem(105);
+        padding-left: toRem(40);
+        padding-right: toRem(45);
+
+        .logo {
+          width: toRem(170);
+          height: toRem(33);
+        }
+
+        nav {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          width: 35%;
+
+          a {
+            font-family: "Barlow";
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 25px;
+            letter-spacing: -0.128571px;
+            color: #ffffff;
+          }
+
+          .contact {
+            background: #ffffff;
+            border-radius: 28px;
+            font-family: "Fraunces";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 25px;
+            letter-spacing: -0.107143px;
+            text-transform: uppercase;
+            color: #24303e;
+            padding: toRem(16) toRem(30);
+          }
+
+          
+        }
+      }
+
+      h1 {
+        font-family: "Fraunces";
+        font-style: normal;
+        font-weight: 900;
+        font-size: toRem(56);
+        line-height: toRem(69);
+        text-align: center;
+        letter-spacing: toRem(8.75);
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-bottom: toRem(96.54);
+      }
+
+      .icon-arrow-down {
+        width: toRem(30);
+        height: toRem(107.48);
+        margin: 0 auto;
+
+        img {
+          height: 100%;
+        }
+      }
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+
+      .grid-item-two {
+        background-color: #ffd602;
+      }
+
+      .grid-item-three {
+        background-color: #ff7364;
+      }
+
+      .grid-item-two,
+      .grid-item-three {
+        img {
+          height: toRem(600);
+        }
+      }
+
+      .grid-item-one,
+      .grid-item-four {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        text-align: left;
+        max-width: toRem(441);
+
+        h2 {
+          font-family: "Fraunces";
+          font-style: normal;
+          font-weight: 900;
+          font-size: toRem(40);
+          line-height: toRem(49);
+          letter-spacing: toRem(-0.285714);
+          color: #24303e;
+          margin-bottom: toRem(32);
+        }
+
+        p {
+          font-family: "Barlow";
+          font-style: normal;
+          font-weight: 600;
+          font-size: toRem(18);
+          line-height: toRem(30);
+          letter-spacing: -0.128571px;
+          color: #808397;
+          margin-bottom: toRem(40);
+        }
+
+        a {
+          font-family: "Fraunces";
+          font-style: normal;
+          font-weight: 900;
+          font-size: 15px;
+          line-height: 25px;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+          color: #24303e;
+        }
+      }
+
+      .grid-item-five-text {
+        background-image: url(./images/desktop/image-graphic-design.jpg);
+        h3 {
+          color: #24554a;
+        }
+
+        p {
+          color: #24554a;
+          width: toRem(339);
+          margin: 0 auto;
+        }
+      }
+
+      .grid-item-six-text {
+        background-image: url(./images/desktop/image-photography.jpg);
+        h3 {
+          color: #052c3b;
+          mix-blend-mode: normal;
+          opacity: 0.75;
+        }
+
+        p {
+          color: #19536c;
+          width: toRem(339);
+          margin: 0 auto;
+        }
+      }
+
+      .grid-item-five-text,
+      .grid-item-six-text {
+        height: toRem(600);
+        padding-top: toRem(398);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+
+        h3 {
+          margin-bottom: toRem(27);
+          font-family: "Fraunces";
+          font-style: normal;
+          font-weight: 900;
+          font-size: 28px;
+          line-height: 35px;
+          text-align: center;
+          letter-spacing: -0.2px;
+        }
+
+        p {
+          font-family: "Barlow";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 27px;
+          text-align: center;
+          letter-spacing: -0.114286px;
+        }
+      }
+    }
+
+    .testimonials {
+      padding: toRem(160) toRem(10);
+      
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      h3 {
+        font-family: "Fraunces";
+        font-style: normal;
+        font-weight: 900;
+        font-size: toRem(20);
+        line-height: toRem(25);
+        text-align: center;
+        letter-spacing: toRem(5);
+        color: #a7aaad;
+        margin-bottom: toRem(81);
+      }
+      
+
+      .grid-testimonials {
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+
+        .client {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+
+          .img-avatar {
+            width: toRem(72);
+            height: toRem(72);
+            border-radius: 50%;
+            margin-bottom: toRem(58);
+
+            img {
+              border-radius: 50%;
+            }
+          }
+
+          p {
+            font-family: "Barlow";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 32px;
+            text-align: center;
+            letter-spacing: -0.128571px;
+            color: #5b636d;
+            margin-bottom: toRem(69);
+            max-width: toRem(345);
+          }
+
+          h4 {
+            font-family: "Fraunces";
+            font-style: normal;
+            font-weight: 900;
+            font-size: 18px;
+            line-height: 22px;
+            text-align: center;
+            letter-spacing: -0.128571px;
+            color: #24303e;
+            margin-bottom: toRem(9);
+          }
+
+          .rule {
+            font-family: "Barlow";
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 25px;
+            text-align: center;
+            letter-spacing: -0.1px;
+            color: #a7aaad;
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    .grid-gallary {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .links-and-social-media {
+      background: #90d4c6;
+      padding: toRem(72) toRem(491);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .logo-footer {
+        width: 170px;
+        height: 33px;
+        margin-bottom: 40px;
+      }
+
+      .links {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 88px;
+
+        a {
+          font-family: "Barlow";
+          font-style: normal;
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 25px;
+          letter-spacing: -0.128571px;
+          color: #458d7e;
+        }
+      }
+
+      .social-media {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 70%;
+      }
+    }
+  }
 }
 
 /*############ for-tablet-landscape-up #############*/

@@ -111,6 +111,19 @@ input {
     color: #ffffff;
     margin-right: 2px;
   }
+  main .hero header nav .contact {
+    background: #ffffff;
+    border-radius: 28px;
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: -0.107143px;
+    text-transform: uppercase;
+    color: #24303e;
+    padding: 1rem 1.875rem;
+  }
   main .hero h1 {
     font-family: "Fraunces";
     font-style: normal;
@@ -347,6 +360,299 @@ input {
   }
 }
 /*############ for-tablet-portrait-up ##############*/
+@media (min-width: 600px) {
+  main .hero {
+    background-image: url(./images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    height: 46.75rem;
+  }
+  main .hero header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2.125rem;
+    margin-bottom: 6.5625rem;
+    padding-left: 2.5rem;
+    padding-right: 2.8125rem;
+  }
+  main .hero header .logo {
+    width: 10.625rem;
+    height: 2.0625rem;
+  }
+  main .hero header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 35%;
+  }
+  main .hero header nav a {
+    font-family: "Barlow";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.128571px;
+    color: #ffffff;
+  }
+  main .hero header nav .contact {
+    background: #ffffff;
+    border-radius: 28px;
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: -0.107143px;
+    text-transform: uppercase;
+    color: #24303e;
+    padding: 1rem 1.875rem;
+  }
+  main .hero h1 {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 4.3125rem;
+    text-align: center;
+    letter-spacing: 0.546875rem;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 6.03375rem;
+  }
+  main .hero .icon-arrow-down {
+    width: 1.875rem;
+    height: 6.7175rem;
+    margin: 0 auto;
+  }
+  main .hero .icon-arrow-down img {
+    height: 100%;
+  }
+  main .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  main .grid .grid-item-two {
+    background-color: #ffd602;
+  }
+  main .grid .grid-item-three {
+    background-color: #ff7364;
+  }
+  main .grid .grid-item-two img,
+  main .grid .grid-item-three img {
+    height: 37.5rem;
+  }
+  main .grid .grid-item-one,
+  main .grid .grid-item-four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  main .grid .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+    max-width: 27.5625rem;
+  }
+  main .grid .text h2 {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 2.5rem;
+    line-height: 3.0625rem;
+    letter-spacing: -0.017857125rem;
+    color: #24303e;
+    margin-bottom: 2rem;
+  }
+  main .grid .text p {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+    letter-spacing: -0.128571px;
+    color: #808397;
+    margin-bottom: 2.5rem;
+  }
+  main .grid .text a {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #24303e;
+  }
+  main .grid .grid-item-five-text {
+    background-image: url(./images/desktop/image-graphic-design.jpg);
+  }
+  main .grid .grid-item-five-text h3 {
+    color: #24554a;
+  }
+  main .grid .grid-item-five-text p {
+    color: #24554a;
+    width: 21.1875rem;
+    margin: 0 auto;
+  }
+  main .grid .grid-item-six-text {
+    background-image: url(./images/desktop/image-photography.jpg);
+  }
+  main .grid .grid-item-six-text h3 {
+    color: #052c3b;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+  }
+  main .grid .grid-item-six-text p {
+    color: #19536c;
+    width: 21.1875rem;
+    margin: 0 auto;
+  }
+  main .grid .grid-item-five-text,
+  main .grid .grid-item-six-text {
+    height: 37.5rem;
+    padding-top: 24.875rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+  main .grid .grid-item-five-text h3,
+  main .grid .grid-item-six-text h3 {
+    margin-bottom: 1.6875rem;
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: -0.2px;
+  }
+  main .grid .grid-item-five-text p,
+  main .grid .grid-item-six-text p {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: -0.114286px;
+  }
+  main .testimonials {
+    padding: 10rem 0.625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  main .testimonials h3 {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 1.25rem;
+    line-height: 1.5625rem;
+    text-align: center;
+    letter-spacing: 0.3125rem;
+    color: #a7aaad;
+    margin-bottom: 5.0625rem;
+  }
+  main .testimonials .grid-testimonials {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+  }
+  main .testimonials .grid-testimonials .client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  main .testimonials .grid-testimonials .client .img-avatar {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50%;
+    margin-bottom: 3.625rem;
+  }
+  main .testimonials .grid-testimonials .client .img-avatar img {
+    border-radius: 50%;
+  }
+  main .testimonials .grid-testimonials .client p {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -0.128571px;
+    color: #5b636d;
+    margin-bottom: 4.3125rem;
+    max-width: 21.5625rem;
+  }
+  main .testimonials .grid-testimonials .client h4 {
+    font-family: "Fraunces";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: -0.128571px;
+    color: #24303e;
+    margin-bottom: 0.5625rem;
+  }
+  main .testimonials .grid-testimonials .client .rule {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: -0.1px;
+    color: #a7aaad;
+  }
+  footer .grid-gallary {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  footer .links-and-social-media {
+    background: #90d4c6;
+    padding: 4.5rem 30.6875rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .links-and-social-media .logo-footer {
+    width: 170px;
+    height: 33px;
+    margin-bottom: 40px;
+  }
+  footer .links-and-social-media .links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 88px;
+  }
+  footer .links-and-social-media .links a {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: -0.128571px;
+    color: #458d7e;
+  }
+  footer .links-and-social-media .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70%;
+  }
+}
 /*############ for-tablet-landscape-up #############*/
 /*############ for-desktop-up ###########*/
 /*############ for-big-desktop-up ##########*//*# sourceMappingURL=style.css.map */
